@@ -1,0 +1,123 @@
+
+.lefted-form-element label {
+  font-size: .95rem;
+  min-width: 10rem;
+  width: 40%;
+}
+
+.easy-input {
+  margin-bottom: 1vh;
+  display: block;
+}
+
+.easy-input input:disabled {
+  background: #f6f9fc;
+}
+
+.kaydet_kapat {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  /*margin-bottom: 1rem;*/
+}
+
+.kaydet_kapat i:hover {
+  color: blue;
+}
+
+.mb-1 {
+  color: #3366ff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.shadow, .border-0 {
+  /*background-image: url('./public/avatars/bg.jpg');*/
+  /*position: relative;*/
+  background-size: cover;
+}
+
+.ag-header-cell-label .ag-header-cell-text {
+  display: inline-block;
+  font-size: 1rem;
+  border-color: #000000;
+}
+
+.sorgula {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-top: 0.8rem;
+  color: #808B96;
+}
+
+.sorgula i:hover {
+  color: blue;
+}
+
+#ana_div {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-header {
+  float: left;
+  display: inline-block;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.div-buton {
+  float: right;
+  display: inline-block;
+  width: 30px;
+  margin-top: 10px;
+}
+
+.example-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#myGrid {
+  flex: 1 1 0px;
+  width: 100%;
+}
+
+/*Loader*/
+.fp-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f8f8f8ad;
+}
+
+.fp-container .fp-loader {
+  top: 30%;
+  left: 48%;
+  z-index: 1000;
+  position: absolute;
+}
+
+.div-header-alert {
+  float: left;
+  display: inline-block;
+  width: 300px;
+  margin-top: 8px;
+}
+
+.div-alert {
+  float: left;
+  display: inline-block;
+  width: 50px;
+  margin-top: 0px;
+  justify-content: flex-end;
+}
